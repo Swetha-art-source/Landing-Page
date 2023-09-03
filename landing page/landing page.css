@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 363.5px;
+}
+
+.logo {
+    width: 90px;
+    height: 60px;
+}
+
+#navItem {
+    color: var(--Black, #262626);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#navItem:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nav-button-layout {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.button {
+    border-radius: 30px;
+    background: #F27A44;
+}
+
+.home-section-bg-container {
+    background: rgba(248, 241, 211, 0.25);
+}
+
+.home-image {
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+}
+
+.home-paragraph {
+    color: #1F2027;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.home-heading-layout {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.home-heading {
+    color: #1F2027;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    /* 125% */
+}
+
+.heading-image {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.home-span-heading {
+    color: #1F2027;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100px;
+}
+
+.span-layout {
+    width: 636px;
+}
+
+.home-description {
+    color: #505C59;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home-background-image {
+    width: 500px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.subtract-image {
+    width: 168px;
+    height: 168px;
+    flex-shrink: 0;
+}
+
+.card-layout {
+    display: flex;
+    width: 360px;
+    padding: 25px;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.heading {
+    color: var(--black, #000);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.description {
+    align-self: stretch;
+    color: #000;
+    /* Body/body1 */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    /* 143.75% */
+    letter-spacing: 0.5px;
+}
+
+.about-image {
+    width: 93px;
+    height: 93px;
+    flex-shrink: 0;
+    padding: 30px;
+}
+
+.about-heading {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-span-heading {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-description {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.destinations-heading {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.destination-card {
+    display: flex;
+    flex-direction: column;
+    padding: 38px 26px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    background-color: #ffffff;
+}
+
+.card-image {
+    border-radius: 20px;
+}
+
+.image {
+    width: 100px;
+    height: 120px;
+}
+
+.card-heading {
+    color: #000;
+    /* Headline extra bold / h4 */
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.card-description {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.book-heading {
+    color: #000;
+    font-family: Roboto;
+    font-size: 32.685px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.book-card {
+    border-radius: 23.346px;
+    background: #FFF;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 0px 4.42478px 6.21021px 0px rgba(0, 0, 0, 0.03), 0px 14.8619px 20.85881px 0px rgba(0, 0, 0, 0.04), 0px 66.53697px 93.38522px 0px rgba(0, 0, 0, 0.07);
+}
+
+.book-heading {
+    color: #000;
+    font-family: Roboto;
+    font-size: 32.685px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.card-description {
+    color: #282828;
+    font-family: Roboto;
+    font-size: 18.677px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.848px;
+    /* 143.75% */
+    letter-spacing: 0.584px;
+}
+
+.label {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12.84px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.848px;
+    /* 209.091% */
+    letter-spacing: 0.584px;
+    text-transform: uppercase;
+}
+
+#input {
+    border-radius: 11.673px;
+    border: 0px solid #000;
+    background: #F3F3F3;
+    color: var(--muted-color, #78858F);
+    font-family: Roboto;
+    font-size: 14.008px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.848px;
+    /* 191.667% */
+    letter-spacing: 0.584px;
+}
+
+#sub-input {
+    border-radius: 11.673px;
+    border: 0px solid #000;
+    background: #F3F3F3;
+    color: var(--muted-color, #78858F);
+    font-family: Roboto;
+    font-size: 14.008px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.848px;
+    /* 191.667% */
+    letter-spacing: 0.584px;
+}
+
+.span-element {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12.84px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.848px;
+    /* 209.091% */
+    letter-spacing: 0.584px;
+    text-transform: uppercase;
+}
+
+.symbol {
+    background: #EBEBEB;
+}
+
+.count {
+    background: #F3F3F3;
+    width: 20px;
+    text-align: center;
+}
+
+.book-button {
+    border-radius: 4.669px;
+    background: #000;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15.175px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.261px;
+    text-transform: uppercase;
+}
+
+.testimonials-heading {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.testimonials-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: var(--White-background, #FFF);
+}
+
+.testimonials-card-heading {
+    color: var(--black-fonts-headings, #2D2E2E);
+    text-align: center;
+    /* Text */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.line {
+    stroke-width: 1px;
+    stroke: var(--Green, #A0CD9E);
+    width: 126px;
+    height: 0px;
+}
+
+.testimonials-description {
+    color: var(--black-fonts-headings, #2D2E2E);
+    text-align: center;
+    /* Text */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 688px;
+}
+
+.paragraph {
+    width: 423px;
+    color: #000;
+    /* Text */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.footer {
+    list-style-type: none;
+}
+
+.list-item {
+    color: var(--black-fonts-headings, #2D2E2E);
+    /* Text */
+    font-family: Inter;
+    margin: 5px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
